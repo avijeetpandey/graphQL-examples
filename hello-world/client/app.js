@@ -12,7 +12,7 @@ async function getGreetings() {
 
   // append the response on the frontend
   const p = document.getElementById("response");
-  p.innerHTML = body?.data?.greeting;
+  p.textContent = body?.data?.greeting;
 }
 
 getGreetings();
