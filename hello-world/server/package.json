@@ -5,6 +5,9 @@
     "email": "avijeetpandey25@gmail.com"
   },
   "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "version": "1.0.0",
   "description": "hello world graphql server",
   "main": "index.js",
@@ -12,5 +15,8 @@
   "dependencies": {
     "@apollo/server": "^4.10.0",
     "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
